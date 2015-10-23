@@ -8,12 +8,13 @@
 
 open System
 
-let rec dosomethingrandom x =
-    if x = 0 then Console.WriteLine(1)
-    else dosomethingrandom ((x - 1) * x)
+let rec dosomethingrandom (x : int) =
+    if x = 0 then 1
+    else dosomethingrandom (x - 1) * x
 [<EntryPoint>]
 let main argv = 
     let input = Console.ReadLine()
     let input = int input
     let calc = dosomethingrandom input
+    Console.WriteLine("{0}", calc)
     0
