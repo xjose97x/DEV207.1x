@@ -1,6 +1,6 @@
-﻿(********************************************
-*DEV207.1x                                  *
-*Program Name: Module Two Koan              *                    
+﻿(*******************************************
+*DEV207.1x: Module Two Assignment           *
+*Program Name: Koan                         *                    
 *Programming Language: F#                   *
 *Author: José I. Escudero                   *
 *E-mail: joseignacioescudero97@hotmail.com  *
